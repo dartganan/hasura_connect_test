@@ -1,7 +1,7 @@
 import 'package:bloc_pattern/bloc_pattern.dart';
 import 'package:flutter/material.dart';
-import 'package:hasura_connect/src/app_widget.dart';
-import 'package:hasura_connect/src/app_bloc.dart';
+import 'package:hasura_connect2/src/app_widget.dart';
+import 'package:hasura_connect2/src/app_bloc.dart';
 
 class AppModule extends ModuleWidget {
   @override

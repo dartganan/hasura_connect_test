@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hasura_connect/src/home/home_module.dart';
+import 'package:hasura_connect2/src/home/home_module.dart';
 
 class AppWidget extends StatelessWidget {
   @override

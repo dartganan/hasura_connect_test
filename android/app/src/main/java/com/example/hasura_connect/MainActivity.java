@@ -1,4 +1,4 @@
-package com.example.hasura_connect;
+package com.example.hasura_connect2;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

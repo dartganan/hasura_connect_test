@@ -1,4 +1,4 @@
-# hasura_connect
+# hasura_connect2
 
 A new Flutter project.
 
