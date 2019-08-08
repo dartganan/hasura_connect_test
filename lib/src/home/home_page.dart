@@ -27,13 +27,13 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Column(
         children: <Widget>[
-          /* MaterialButton(
+          MaterialButton(
             onPressed: (){
               bloc.carrega();
             },
             child: Text("Carregar"),
             color: Colors.red,
-          ), */
+          ),
            StreamBuilder(
              stream: bloc.snap.stream ,
              builder: (BuildContext context, AsyncSnapshot snapshot){

@@ -13,12 +13,14 @@ Snapshot snap;
 
   //document
   String docQuery = """
-        query {
-        chat {
-          cha_id
-          cha_name
-        }
-      }
+mutation {
+  insert_message(objects: {mes_content: "ddartt", mes_use_id: 1, mes_cha_id: 1}) {
+    returning {
+      mes_id
+    }
+  }
+}
+
 
       """;
 
